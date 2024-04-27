@@ -1,7 +1,5 @@
 from tensorflow.keras import backend as K
 
-
-
 def categorical_focal_loss(y, y_pred):
     gamma = 2.5  # 2.5 and 0.5 are values set on some paper
     alpha = 0.5  # 2.0 and 0.25
